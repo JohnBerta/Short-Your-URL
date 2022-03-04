@@ -7,8 +7,9 @@ from tkinter.filedialog import asksaveasfile
 
 # root window
 root = Tk()
-root.geometry("600x600")
+root.geometry("600x500")
 root.resizable(False, False)
+root.title("Short-Your-URL")
 
 # canvas
 canvas = Canvas(root, background="blue")
